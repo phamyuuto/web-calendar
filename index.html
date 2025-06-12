@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <title>Calendar</title>
+  </head>
+  <body>
+    <div class="calendar">
+      <div class="calendar-header">
+        <div class="calendar-date-display">
+          <p class="date-today">
+            <span class="day-of-week">Tuesday</span>,
+            <span class="month">November</span>
+            <span class="day">12</span>
+          </p>
+          <i class="fa-solid fa-angle-down toggle-view-button"></i>
+        </div>
+        <div class="calendar-navigation">
+          <button class="current-month-year">
+            <span class="display-month">November</span>
+            <span class="display-year">2024</span>
+          </button>
+          <div class="month-navigation">
+            <button class="nav-icon prev-month">
+              <i class="fa-solid fa-caret-up"></i>
+            </button>
+            <button class="nav-icon next-month">
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="calendar-grid-container">
+        <table class="calendar-grid">
+          <thead id="calendar-header">
+            <tr>
+              <th>Su</th>
+              <th>Mo</th>
+              <th>Tu</th>
+              <th>We</th>
+              <th>Th</th>
+              <th>Fr</th>
+              <th>Sa</th>
+            </tr>
+          </thead>
+          <tbody id="calendar-days"></tbody>
+        </table>
+      </div>
+      <div class="calendar__footer">
+        <div class="calendar__footer-time">
+          <div class="btn-icon icon-minus">
+            <i class="fa-solid fa-minus"></i>
+          </div>
+          <div class="time"><span>30</span> mins</div>
+          <div class="btn-icon icon-plus">
+            <i class="fa-solid fa-plus"></i>
+          </div>
+        </div>
+        <button class="btn-focus">
+          <i class="fa-solid fa-caret-right"></i>
+          Focus
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
