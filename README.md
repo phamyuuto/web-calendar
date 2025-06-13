@@ -13,7 +13,7 @@
 
 ## 📸 Screenshot
 
-![Screenshot 2025-06-13 060109](https://github.com/user-attachments/assets/20ee25be-7e78-400b-be05-7a657ce33a16)
+![Screenshot 2025-06-13 060109](https://github.com/user-attachments/assets/e4d35830-856a-496e-970e-9a02b9225648)
 
 ## 🚀 Deployment
 
